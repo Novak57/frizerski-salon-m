@@ -48,7 +48,7 @@ if ("IntersectionObserver" in window) {
         }
       });
     },
-    { threshold: 0.14, rootMargin: "0px 0px -8% 0px" }
+    { threshold: 0.06, rootMargin: "0px 0px -4% 0px" }
   );
   document.querySelectorAll(".reveal").forEach((el, i) => {
     el.style.transitionDelay = `${(i % 4) * 70}ms`;
