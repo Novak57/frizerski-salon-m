@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*
+*.log
+
+# Unused local placeholders (not on the live site)
+img/cta.jpg
+img/dark-*.jpg
+img/gallery-*.jpg
+img/hero-1.jpg
+img/hero-2.jpg
+img/hero-products.png
+img/hero-salon.jpg
+img/lux-*.jpg
+img/mood-*.jpg
+img/pix-*.jpg
+img/salon-*.jpg
