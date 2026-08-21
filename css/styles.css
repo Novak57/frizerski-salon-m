@@ -461,15 +461,17 @@ textarea:focus-visible {
 
 .about__photo {
   position: relative;
+  background: #0b0b0b;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
 }
 
 .about__photo img {
   width: 100%;
   height: min(78vh, 720px);
-  object-fit: cover;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  filter: saturate(1.05) contrast(1.04);
+  object-fit: contain;
+  object-position: center;
+  padding: 1.4rem 1.2rem;
 }
 
 .about__badge {
