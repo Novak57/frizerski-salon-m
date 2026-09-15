@@ -27,6 +27,10 @@ onScroll();
 
 toggle.addEventListener("click", () => setOpen(drawer.hidden));
 
+window.matchMedia("(min-width: 1100px)").addEventListener("change", (event) => {
+  if (event.matches) setOpen(false);
+});
+
 drawer.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => setOpen(false));
 });

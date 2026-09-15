@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://novak57.github.io/frizerski-salon-m/sitemap.xml
