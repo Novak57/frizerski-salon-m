@@ -69,14 +69,14 @@
         ]
       }
     </script>
-    <link rel="preload" as="image" href="img/hero-hair.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="img/hero-cinematic.webp" type="image/webp" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Tenor+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css?v=20260915hair" />
+    <link rel="stylesheet" href="css/styles.css?v=hero-cinema2" />
   </head>
   <body>
     <a class="skip" href="#sadrzaj">Preskoči na sadržaj</a>
@@ -118,33 +118,29 @@
 
     <main id="sadrzaj">
       <section class="hero" id="pocetak">
-        <div class="hero__copy">
-          <p class="eyebrow">Tratinska 38 · Trešnjevka</p>
-          <h1>
-            <span class="hero__title">Salon M</span>
-            <span class="hero__sub">Frizura, boja i njega.</span>
-          </h1>
-          <p class="script">Vaša kosa. Naš stil.</p>
-          <p class="hero__lead">
-            Šišanje, bojanje, balayage i njega — pažljivo, 1 na 1, na Trešnjevci.
-          </p>
-          <div class="hero__actions">
-            <a class="btn btn--gold" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj termin</a>
-            <a class="btn btn--ghost" href="#usluge">Pogledaj cjenik</a>
-          </div>
-        </div>
-        <div class="hero__stage">
+        <div class="hero__bg" aria-hidden="true">
           <img
-            class="hero__hair"
-            src="img/hero-hair.webp"
-            alt="Bakrena kosa — rezultat bojanja"
-            width="864"
-            height="1152"
+            src="img/hero-cinematic.webp"
+            alt=""
+            width="1280"
+            height="720"
             decoding="async"
             fetchpriority="high"
           />
         </div>
-        <a class="hero__scroll" href="#o-nama">Otkrij više</a>
+        <div class="hero__veil" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__eyebrow">Tratinska 38 · Trešnjevka</p>
+          <h1 class="hero__title">Salon M</h1>
+          <p class="hero__tagline">Šišanje, boja i njega.</p>
+          <p class="hero__text">
+            Frizerski salon na Trešnjevci.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj termin</a>
+            <a class="hero__ghost" href="#usluge">Pogledaj cjenik</a>
+          </div>
+        </div>
       </section>
 
       <section class="about about--story" id="o-nama">
@@ -154,7 +150,7 @@
           <h2>Mjesto gdje kosa dobiva pažnju koju zaslužuje.</h2>
           <p>
             Na Trešnjevci smo otvorili vrata našeg salona u listopadu 2025.
-            godine s jednom jednostavnom željom — stvoriti mjesto u kojem se
+            godine s jednom jednostavnom željom - stvoriti mjesto u kojem se
             klijenti osjećaju ugodno, saslušano i sigurno kada svoju kosu
             prepuste našim rukama.
           </p>
@@ -167,7 +163,7 @@
           <p>
             Posebnu pažnju posvećujemo kvaliteti kose, preciznosti u radu i
             odabiru proizvoda, jer nam je važno da kosa ne izgleda samo lijepo
-            — već da bude zdrava, njegovana i dugoročno kvalitetna.
+            - već da bude zdrava, njegovana i dugoročno kvalitetna.
           </p>
           <p>
             Naš salon zamišljen je kao mjesto bez žurbe i pritiska, 1 na 1.
@@ -176,7 +172,7 @@
           </p>
           <p>
             Iako smo novi salon na Trešnjevci, od prvog dana gradimo ono što
-            nam je najvažnije — povjerenje, kvalitetne rezultate i dugoročne
+            nam je najvažnije - povjerenje, kvalitetne rezultate i dugoročne
             odnose s našim klijentima.
           </p>
           <p>
@@ -187,7 +183,7 @@
           <ul>
             <li>
               <strong>Salon</strong>
-              Jedan klijent u terminu
+              Bez žurbe i pritiska
             </li>
             <li>
               <strong>Lokacija</strong>
@@ -294,13 +290,13 @@
           </article>
         </div>
         <p class="services__note reveal">
-          Svaka cijena je za sebe — na nju se dodaje ostatak usluge ako se radi
+          Svaka cijena je za sebe - na nju se dodaje ostatak usluge ako se radi
           kombinacija. Iznos može ovisiti o dužini, gustoći i stanju kose te
           količini utrošenog materijala. Za zahtjevnije promjene i korekcije
           boje cijena se određuje nakon konzultacija.
         </p>
         <p class="services__note reveal">
-          Nisi sigurna što odabrati? Javi se — rado ćemo zajedno pronaći
+          Nisi sigurna što odabrati? Javi se - rado ćemo zajedno pronaći
           najbolju opciju za tvoju kosu.
         </p>
         </div>
@@ -331,7 +327,7 @@
                 profesionalnu primjenu.
               </p>
               <p>
-                U ponudi su proizvodi i tretmani za različite potrebe — od
+                U ponudi su proizvodi i tretmani za različite potrebe - od
                 hidratacije i regeneracije do njege obojene, oštećene i
                 kemijski tretirane kose. Posebnu pažnju posvećujemo njezi
                 vlasišta, jer zdrava kosa počinje od zdravog vlasišta.
@@ -359,7 +355,7 @@
               </p>
               <p>
                 milk_shake proizvodi omogućuju nam da dodatno prilagodimo njegu
-                različitim tipovima kose — od svakodnevne hidratacije i zaštite
+                različitim tipovima kose - od svakodnevne hidratacije i zaštite
                 do njege nakon bojanja i kemijskih tretmana.
               </p>
             </div>
@@ -371,7 +367,7 @@
             Ne vjerujemo u univerzalnu njegu. Svaka kosa ima svoje potrebe,
             zato ti nakon tretmana možemo preporučiti proizvode koji najbolje
             odgovaraju upravo tvojoj kosi. Profesionalna njega ne završava
-            izlaskom iz salona — ona se nastavlja kod kuće.
+            izlaskom iz salona - ona se nastavlja kod kuće.
           </p>
         </div>
         </div>
@@ -383,7 +379,7 @@
           <p class="eyebrow">Radovi</p>
           <h2>Galerija</h2>
           <p>
-            Frizure i boje iz salona. Klikni sliku za veći prikaz — više radova
+            Frizure i boje iz salona. Klikni sliku za veći prikaz - više radova
             je na Instagramu.
           </p>
         </header>
@@ -416,7 +412,7 @@
           <p class="eyebrow">Upoznaj mene</p>
           <h2>Jedna osoba, jedan salon i puno ljubavi prema kosi.</h2>
           <p>
-            Iza salona stojim ja — frizerka kojoj je cilj svakoj klijentici i
+            Iza salona stojim ja - frizerka kojoj je cilj svakoj klijentici i
             klijentu pružiti individualan pristup, kvalitetnu uslugu i osjećaj
             da je došla na mjesto gdje se može opustiti i prepustiti stručnim
             rukama.
@@ -424,7 +420,7 @@
           <p>
             Salon sam otvorila u listopadu 2025. godine kako bih stvorila prostor
             u kojem se mogu posvetiti svakoj klijentici, njezinoj kosi i željama
-            — bez žurbe i bez univerzalnih rješenja.
+            - bez žurbe i bez univerzalnih rješenja.
           </p>
           <p>
             Posebno volim raditi na promjenama boje, balayage tehnikama i njezi
@@ -447,7 +443,7 @@
           <p class="eyebrow">Recenzije</p>
           <h2>Što kažu klijenti</h2>
           <p>
-            Prave Google recenzije. Salon je otvoren u listopadu 2025. — ostavi
+            Prave Google recenzije. Salon je otvoren u listopadu 2025. - ostavi
             svoju, znači nam.
           </p>
         </header>
@@ -610,7 +606,7 @@
             <p>Informacije o lokaciji i kako doći pronaći ćeš u rubrici <a href="#kontakt">Kontakt</a>. Ulaz je iz Badalićeve, pored kafića i kozmetičkog salona Luma.</p>
           </details>
         </div>
-        <p class="faq__more reveal">Imaš još pitanja? Slobodno nam se javi — rado ćemo pomoći.</p>
+        <p class="faq__more reveal">Imaš još pitanja? Slobodno nam se javi - rado ćemo pomoći.</p>
         </div>
       </section>
 
@@ -657,7 +653,7 @@
             </li>
             <li>
               <strong>Radno vrijeme</strong>
-              Pon – pet: po dogovoru<br />
+              Pon - pet: po dogovoru<br />
               Sub: po dogovoru<br />
               Ned: zatvoreno
             </li>
@@ -696,8 +692,8 @@
               <span class="footer__logo-name">Frizerski salon M</span>
             </a>
             <p>
-              Frizerski salon na Tratinskoj 38. Šišanje, bojanje, balayage i njega —
-              pažljivo i po tebi.
+              Frizerski salon na Tratinskoj 38. Šišanje, bojanje, balayage i njega
+              na Trešnjevci.
             </p>
             <div class="footer__socials">
               <a
@@ -785,16 +781,6 @@
         </div>
       </div>
     </footer>
-
-    <a
-      class="whatsapp"
-      href="https://wa.me/385919474951"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Piši na WhatsApp"
-    >
-      WhatsApp
-    </a>
 
     <dialog class="lightbox" id="lightbox" aria-label="Povećana fotografija">
       <button class="lightbox__close" type="button" aria-label="Zatvori">Zatvori</button>
