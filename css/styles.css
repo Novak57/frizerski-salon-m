@@ -999,7 +999,9 @@ textarea:focus-visible {
 
 .meet__collage {
   position: relative;
-  min-height: 34rem;
+  width: 100%;
+  aspect-ratio: 1 / 1.06;
+  min-height: 0;
 }
 
 .meet__arch {
@@ -1017,7 +1019,7 @@ textarea:focus-visible {
 .meet__circle {
   position: absolute;
   right: 0;
-  bottom: 8%;
+  top: 40%;
   width: 48%;
   margin: 0;
   aspect-ratio: 1;
@@ -1031,7 +1033,7 @@ textarea:focus-visible {
 .meet__product {
   position: absolute;
   left: 0;
-  bottom: 0;
+  top: 56%;
   width: 38%;
   margin: 0;
   aspect-ratio: 1;
@@ -1483,7 +1485,6 @@ textarea:focus-visible {
 
   .meet__collage {
     order: 2;
-    min-height: 28rem;
     margin-block: 0.35rem 1.35rem;
   }
 
@@ -1595,10 +1596,6 @@ textarea:focus-visible {
   .reviews,
   .faq {
     padding: 3.8rem 0 3.3rem;
-  }
-
-  .meet__collage {
-    min-height: 24rem;
   }
 
   .book {
