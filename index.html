@@ -20,7 +20,8 @@
       content="Šišanje, bojanje, balayage i njega na Tratinskoj 38. Termin WhatsAppom ili pozivom."
     />
     <meta property="og:url" content="https://novak57.github.io/frizerski-salon-m/" />
-    <meta property="og:image" content="https://novak57.github.io/frizerski-salon-m/img/og.jpg" />
+    <meta property="og:image" content="https://novak57.github.io/frizerski-salon-m/img/og.jpg?v=2" />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Frizerski salon M, Tratinska 38, Zagreb" />
@@ -30,10 +31,10 @@
       name="twitter:description"
       content="Šišanje, bojanje, balayage i njega na Tratinskoj 38. Termin WhatsAppom ili pozivom."
     />
-    <meta name="twitter:image" content="https://novak57.github.io/frizerski-salon-m/img/og.jpg" />
-    <meta name="theme-color" content="#0b0a08" />
+    <meta name="twitter:image" content="https://novak57.github.io/frizerski-salon-m/img/og.jpg?v=2" />
+    <meta name="theme-color" content="#1a1a1a" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" sizes="180x180" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -51,7 +52,11 @@
             "@id": "https://novak57.github.io/frizerski-salon-m/#salon",
             "name": "Frizerski salon M",
             "url": "https://novak57.github.io/frizerski-salon-m/",
-            "image": "https://novak57.github.io/frizerski-salon-m/img/og.jpg",
+            "image": [
+              "https://novak57.github.io/frizerski-salon-m/img/og.jpg",
+              "https://novak57.github.io/frizerski-salon-m/img/hero-cinematic.webp",
+              "https://novak57.github.io/frizerski-salon-m/img/meet-arch.webp"
+            ],
             "logo": "https://novak57.github.io/frizerski-salon-m/img/apple-touch-icon.png",
             "description": "Frizerski salon na Tratinskoj 38 u Zagrebu. Šišanje, bojanje, balayage, njega i threading.",
             "telephone": "+385919474951",
@@ -62,6 +67,11 @@
               "postalCode": "10000",
               "addressCountry": "HR"
             },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 45.8032,
+              "longitude": 15.9453
+            },
             "areaServed": { "@type": "City", "name": "Zagreb" },
             "priceRange": "€€",
             "sameAs": ["https://www.instagram.com/frizerski__salon_m/"]
@@ -69,34 +79,34 @@
         ]
       }
     </script>
-    <link rel="preload" as="image" href="img/hero-cinematic.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="img/hero-cinematic.webp?v=opt1" type="image/webp" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Tenor+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css?v=hero-cinema2" />
+    <link rel="stylesheet" href="css/styles.css?v=perf7" />
   </head>
   <body>
-    <a class="skip" href="#sadrzaj">Preskoči na sadržaj</a>
-    <div class="grain" aria-hidden="true"></div>
-
     <header class="nav" id="nav">
       <a class="nav__brand" href="#pocetak">
         <span class="nav__mark" aria-hidden="true">M</span>
-        <span class="nav__name">Frizerski salon M</span>
+        <span class="nav__brand-text">
+          <span class="nav__name">Salon M</span>
+          <span class="nav__tag">Frizerski salon</span>
+        </span>
       </a>
       <nav class="nav__links" aria-label="Glavni izbornik">
-        <a href="#o-nama">O nama</a>
-        <a href="#usluge">Usluge</a>
-        <a href="#proizvodi">Proizvodi</a>
+        <a href="#upoznaj-mene">Upoznaj mene</a>
         <a href="#galerija">Galerija</a>
+        <a href="#usluge">Usluge</a>
         <a href="#recenzije">Recenzije</a>
+        <a href="#pitanja">Pitanja</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
       <div class="nav__right">
-        <a class="nav__cta" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj termin</a>
+        <a class="nav__cta" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj</a>
         <button class="nav__toggle" type="button" aria-label="Otvori izbornik" aria-expanded="false">
           <span></span><span></span>
         </button>
@@ -104,101 +114,137 @@
     </header>
 
     <div class="nav__drawer" id="drawer" hidden>
-      <a href="#o-nama">O nama</a>
-      <a href="#usluge">Cijenik i usluge</a>
-      <a href="#proizvodi">Proizvodi</a>
-      <a href="#galerija">Galerija</a>
       <a href="#upoznaj-mene">Upoznaj mene</a>
+      <a href="#galerija">Galerija</a>
+      <a href="#usluge">Usluge</a>
       <a href="#recenzije">Recenzije</a>
-      <a href="#pitanja">Najčešća pitanja</a>
-      <a href="#rezervacije">Rezervacije</a>
+      <a href="#pitanja">Pitanja</a>
       <a href="#kontakt">Kontakt</a>
       <a class="nav__drawer-cta" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj termin</a>
     </div>
 
     <main id="sadrzaj">
       <section class="hero" id="pocetak">
-        <div class="hero__bg" aria-hidden="true">
+        <div class="hero__media" aria-hidden="true">
           <img
-            src="img/hero-cinematic.webp"
+            class="hero__bg"
+            src="img/hero-cinematic.webp?v=opt1"
             alt=""
             width="1280"
             height="720"
             decoding="async"
             fetchpriority="high"
+            loading="eager"
           />
         </div>
         <div class="hero__veil" aria-hidden="true"></div>
-        <div class="hero__content">
-          <p class="hero__eyebrow">Tratinska 38 · Trešnjevka</p>
-          <h1 class="hero__title">Salon M</h1>
-          <p class="hero__tagline">Ljepota temeljena na zdravoj kosi</p>
-          <p class="hero__text">
-            Frizerski salon na Trešnjevci
-          </p>
-          <div class="hero__actions">
-            <a class="btn btn--gold" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj termin</a>
-            <a class="hero__ghost" href="#usluge">Pogledaj cjenik</a>
+        <div class="hero__inner">
+          <div class="hero__content">
+            <p class="hero__place">Tratinska 38 · Trešnjevka</p>
+            <h1 class="hero__name">Salon M</h1>
+            <p class="hero__motto">Ljepota temeljena na zdravoj kosi</p>
+            <div class="hero__actions">
+              <a class="btn btn--gold" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj termin</a>
+              <a class="hero__ghost" href="#usluge">Pogledaj cjenik</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="about about--story" id="o-nama">
-        <div class="wrap about__grid">
-        <div class="about__copy reveal">
-          <p class="eyebrow">O nama</p>
-          <h2>Mjesto gdje kosa dobiva pažnju koju zaslužuje.</h2>
-          <p>
-            Na Trešnjevci smo otvorili vrata našeg salona u listopadu 2025.
-            godine s jednom jednostavnom željom - stvoriti mjesto u kojem se
-            klijenti osjećaju ugodno, saslušano i sigurno kada svoju kosu
-            prepuste našim rukama.
-          </p>
-          <p>
-            Vjerujemo da dobra frizura nije samo lijep izgled nakon izlaska
-            iz salona. Ona treba odgovarati vašem stilu, osobnosti i
-            svakodnevnom životu. Zato svakom klijentu pristupamo individualno,
-            od prvog razgovora pa sve do završnog oblikovanja.
-          </p>
-          <p>
-            Posebnu pažnju posvećujemo kvaliteti kose, preciznosti u radu i
-            odabiru proizvoda, jer nam je važno da kosa ne izgleda samo lijepo
-            - već da bude zdrava, njegovana i dugoročno kvalitetna.
-          </p>
-          <p>
-            Naš salon zamišljen je kao mjesto bez žurbe i pritiska, 1 na 1.
-            Mjesto gdje možete odvojiti vrijeme za sebe, opustiti se i izaći
-            s frizurom u kojoj se osjećate najbolje.
-          </p>
-          <p>
-            Iako smo novi salon na Trešnjevci, od prvog dana gradimo ono što
-            nam je najvažnije - povjerenje, kvalitetne rezultate i dugoročne
-            odnose s našim klijentima.
-          </p>
-          <p>
-            Hvala vam što ste dio naše priče. Veselimo se svakom novom susretu.
-          </p>
+      <section class="meet" id="upoznaj-mene">
+        <div class="wrap meet__grid">
+          <aside class="meet__collage reveal" aria-hidden="true">
+            <figure class="meet__arch">
+              <img src="img/meet-arch.webp?v=opt1" alt="" width="768" height="1024" loading="lazy" decoding="async" />
+            </figure>
+            <figure class="meet__circle">
+              <img src="img/about-medavita.webp?v=opt1" alt="" width="733" height="1100" loading="lazy" decoding="async" />
+            </figure>
+            <figure class="meet__product">
+              <img src="img/about-milkshake.webp?v=opt1" alt="" width="900" height="900" loading="lazy" decoding="async" />
+            </figure>
+          </aside>
+
+          <div class="meet__intro">
+            <div class="meet__title reveal">
+              <p class="eyebrow">Upoznaj mene</p>
+              <h2>Jedna osoba, jedan salon i puno ljubavi prema kosi.</h2>
+            </div>
+            <div class="meet__copy reveal">
+              <div class="meet__lead">
+                <p>
+                  Iza salona stojim ja - frizerka kojoj je cilj svakoj klijentici i
+                  klijentu pružiti individualan pristup, kvalitetnu uslugu i osjećaj
+                  da je došla na mjesto gdje se može opustiti i prepustiti stručnim
+                  rukama.
+                </p>
+                <p>
+                  Salon sam otvorila u listopadu 2025. na Trešnjevci kako bih stvorila
+                  prostor bez žurbe i pritiska, u kojem se klijenti osjećaju ugodno,
+                  saslušano i sigurno kada svoju kosu prepuste mojim rukama.
+                </p>
+                <p>
+                  Vjerujem da dobra frizura nije samo lijep izgled nakon izlaska iz
+                  salona. Ona treba odgovarati tvom stilu, osobnosti i svakodnevnom
+                  životu. Posebno volim raditi na promjenama boje, balayage tehnikama
+                  i njezi kose - najviše me veseli kada zajedno pronađemo frizuru i
+                  boju u kojoj se ti osjećaš najbolje.
+                </p>
+                <p>
+                  Za profesionalni rad biram Medavitu i milk_shake, jer mi je važno
+                  da kosa ne izgleda samo lijepo, već da bude zdrava, njegovana i
+                  dugoročno kvalitetna.
+                </p>
+              </div>
+              <p class="meet__close">Dođi kao klijentica, otiđi kao dio moje priče.</p>
+              <a class="btn btn--dark" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">Rezerviraj termin</a>
+            </div>
+          </div>
         </div>
-        <aside class="about__facts reveal">
-          <ul>
-            <li>
-              <strong>Salon</strong>
-              Bez žurbe i pritiska
-            </li>
-            <li>
-              <strong>Lokacija</strong>
-              Tratinska 38, Trešnjevka
-            </li>
-            <li>
-              <strong>Otvoreno</strong>
-              Listopad 2025.
-            </li>
-            <li>
-              <strong>Brendovi</strong>
-              Medavita i milk_shake
-            </li>
-          </ul>
-        </aside>
+      </section>
+
+      <section class="gallery" id="galerija">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <p class="eyebrow">Radovi</p>
+            <h2>Galerija</h2>
+            <p>
+              Frizure i boje iz salona. Klikni sliku za veći prikaz - više radova
+              je na Instagramu.
+            </p>
+          </header>
+          <div class="gallery__grid reveal">
+            <button class="gallery__item" type="button" data-src="img/work-1.webp?v=opt1">
+              <img src="img/work-1.webp?v=opt1" alt="Duga ravna crvena kosa" width="825" height="1100" loading="lazy" decoding="async" />
+            </button>
+            <button class="gallery__item" type="button" data-src="img/work-2.webp?v=opt1">
+              <img src="img/work-2.webp?v=opt1" alt="Duga smeđa kosa u mekim valovima" width="825" height="1100" loading="lazy" decoding="async" />
+            </button>
+            <button class="gallery__item" type="button" data-src="img/work-3.webp?v=opt1">
+              <img src="img/work-3.webp?v=opt1" alt="Duga tamno smeđa kosa u mekim valovima" width="825" height="1100" loading="lazy" decoding="async" />
+            </button>
+            <button class="gallery__item" type="button" data-src="img/work-4.webp?v=opt1">
+              <img src="img/work-4.webp?v=opt1" alt="Plava kosa u volumenim valovima" width="825" height="1100" loading="lazy" decoding="async" />
+            </button>
+            <button class="gallery__item" type="button" data-src="img/work-5.webp?v=opt1">
+              <img src="img/work-5.webp?v=opt1" alt="Plava ravna kosa do ramena" width="767" height="1024" loading="lazy" decoding="async" />
+            </button>
+            <button class="gallery__item" type="button" data-src="img/work-6.webp?v=opt1">
+              <img src="img/work-6.webp?v=opt1" alt="Smeđa kosa u niskom svečanom upinu" width="768" height="1024" loading="lazy" decoding="async" />
+            </button>
+            <button class="gallery__item" type="button" data-src="img/work-7.webp?v=opt1">
+              <img src="img/work-7.webp?v=opt1" alt="Smeđi voluminozni valovi" width="768" height="1024" loading="lazy" decoding="async" />
+            </button>
+            <button class="gallery__item" type="button" data-src="img/work-8.webp?v=opt1">
+              <img src="img/work-8.webp?v=opt1" alt="Plava kosa u half-up frizuri s valovima" width="768" height="1024" loading="lazy" decoding="async" />
+            </button>
+          </div>
+          <p class="gallery__note reveal">
+            Više radova na
+            <a href="https://www.instagram.com/frizerski__salon_m/" target="_blank" rel="noopener noreferrer">
+              @frizerski__salon_m
+            </a>
+          </p>
         </div>
       </section>
 
@@ -302,141 +348,6 @@
         </div>
       </section>
 
-      <section class="products" id="proizvodi">
-        <div class="wrap">
-        <header class="section-head reveal">
-          <p class="eyebrow">Proizvodi</p>
-          <h2>Profesionalna njega uz Medavitu i milk_shake</h2>
-          <p>
-            U našem salonu vjerujemo da lijepa kosa počinje pravilnim odabirom
-            proizvoda. Radimo s profesionalnim brendovima Medavita i milk_shake,
-            koje biramo prema potrebama svake kose.
-          </p>
-        </header>
-        <div class="products__grid">
-          <article class="product-card reveal">
-            <figure>
-              <img src="img/about-medavita.webp" alt="Medavita profesionalna boja i njega" width="900" height="1350" loading="lazy" decoding="async" />
-            </figure>
-            <div>
-              <p class="eyebrow">Brend</p>
-              <h3>Medavita</h3>
-              <p>
-                Medavita je talijanski profesionalni brend posvećen njezi kose
-                i vlasišta, s naglaskom na kvalitetu, učinkovitost i
-                profesionalnu primjenu.
-              </p>
-              <p>
-                U ponudi su proizvodi i tretmani za različite potrebe - od
-                hidratacije i regeneracije do njege obojene, oštećene i
-                kemijski tretirane kose. Posebnu pažnju posvećujemo njezi
-                vlasišta, jer zdrava kosa počinje od zdravog vlasišta.
-              </p>
-            </div>
-          </article>
-          <article class="product-card reveal">
-            <figure>
-              <img
-                src="img/about-milkshake.webp"
-                alt="milk_shake Integrity &amp; Strength šampon, regenerator i tretman"
-                width="750"
-                height="750"
-                loading="lazy"
-                decoding="async"
-              />
-            </figure>
-            <div>
-              <p class="eyebrow">Brend</p>
-              <h3>milk_shake</h3>
-              <p>
-                Uz Medavitu koristimo i milk_shake, profesionalni brend poznat
-                po kombinaciji profesionalne tehnologije, kvalitetnih sastojaka
-                i ugodnog iskustva njege kose.
-              </p>
-              <p>
-                milk_shake proizvodi omogućuju nam da dodatno prilagodimo njegu
-                različitim tipovima kose - od svakodnevne hidratacije i zaštite
-                do njege nakon bojanja i kemijskih tretmana.
-              </p>
-            </div>
-          </article>
-        </div>
-        <div class="products__note reveal">
-          <h3>Tvoja kosa, naša preporuka</h3>
-          <p>
-            Ne vjerujemo u univerzalnu njegu. Svaka kosa ima svoje potrebe,
-            zato ti nakon tretmana možemo preporučiti proizvode koji najbolje
-            odgovaraju upravo tvojoj kosi. Profesionalna njega ne završava
-            izlaskom iz salona - ona se nastavlja kod kuće.
-          </p>
-        </div>
-        </div>
-      </section>
-
-      <section class="gallery" id="galerija">
-        <div class="wrap">
-        <header class="section-head reveal">
-          <p class="eyebrow">Radovi</p>
-          <h2>Galerija</h2>
-          <p>
-            Frizure i boje iz salona. Klikni sliku za veći prikaz - više radova
-            je na Instagramu.
-          </p>
-        </header>
-        <div class="gallery__grid">
-          <button class="gallery__item reveal" type="button" data-src="img/work-1.webp">
-            <img src="img/work-1.webp" alt="Elegantna niska punđa na smeđoj kosi" width="1086" height="1448" loading="lazy" decoding="async" />
-          </button>
-          <button class="gallery__item reveal" type="button" data-src="img/work-2.webp">
-            <img src="img/work-2.webp" alt="Duga ravna bakrena kosa" width="1200" height="1600" loading="lazy" decoding="async" />
-          </button>
-          <button class="gallery__item reveal" type="button" data-src="img/work-3.webp">
-            <img src="img/work-3.webp" alt="Duga tamno smeđa kosa u mekim valovima" width="1200" height="1600" loading="lazy" decoding="async" />
-          </button>
-          <button class="gallery__item reveal" type="button" data-src="img/work-4.webp">
-            <img src="img/work-4.webp" alt="Plava balayage frizura u valovima" width="1200" height="1600" loading="lazy" decoding="async" />
-          </button>
-        </div>
-        <p class="gallery__note reveal">
-          Više radova na
-          <a href="https://www.instagram.com/frizerski__salon_m/" target="_blank" rel="noopener noreferrer">
-            @frizerski__salon_m
-          </a>
-        </p>
-        </div>
-      </section>
-
-      <section class="meet" id="upoznaj-mene">
-        <div class="wrap">
-        <div class="meet__copy reveal">
-          <p class="eyebrow">Upoznaj mene</p>
-          <h2>Jedna osoba, jedan salon i puno ljubavi prema kosi.</h2>
-          <p>
-            Iza salona stojim ja - frizerka kojoj je cilj svakoj klijentici i
-            klijentu pružiti individualan pristup, kvalitetnu uslugu i osjećaj
-            da je došla na mjesto gdje se može opustiti i prepustiti stručnim
-            rukama.
-          </p>
-          <p>
-            Salon sam otvorila u listopadu 2025. godine kako bih stvorila prostor
-            u kojem se mogu posvetiti svakoj klijentici, njezinoj kosi i željama
-            - bez žurbe i bez univerzalnih rješenja.
-          </p>
-          <p>
-            Posebno volim raditi na promjenama boje, balayage tehnikama i njezi
-            kose, ali najviše me veseli kada zajedno pronađemo frizuru i boju u
-            kojoj se ti osjećaš najbolje.
-          </p>
-          <p>
-            Za njegu i profesionalni rad biram Medavitu i milk_shake, a svoje
-            znanje kontinuirano nadograđujem kako bih mogla ponuditi što
-            kvalitetniju uslugu.
-          </p>
-          <p class="meet__close">Dođi kao klijentica, otiđi kao dio moje priče.</p>
-        </div>
-        </div>
-      </section>
-
       <section class="reviews" id="recenzije">
         <div class="wrap">
         <header class="section-head reveal">
@@ -501,29 +412,6 @@
             </blockquote>
             <figcaption>
               <strong>Lidija Brlečić</strong>
-              <span>Google</span>
-            </figcaption>
-          </figure>
-          <figure class="quote reveal">
-            <div class="quote__stars" aria-label="5 od 5 zvjezdica">★★★★★</div>
-            <blockquote>
-              <p>
-                Prvi put ovdje i samo riječi pohvale. Jako sam zadovoljna
-                šišanjem i frizurom. Svaka preporuka!
-              </p>
-            </blockquote>
-            <figcaption>
-              <strong>Aleksandra Cokic</strong>
-              <span>Google</span>
-            </figcaption>
-          </figure>
-          <figure class="quote reveal">
-            <div class="quote__stars" aria-label="5 od 5 zvjezdica">★★★★★</div>
-            <blockquote>
-              <p>Odlična, mlada i simpatična frizerka! Svaka preporuka!</p>
-            </blockquote>
-            <figcaption>
-              <strong>Nina Brljafa</strong>
               <span>Google</span>
             </figcaption>
           </figure>
@@ -610,25 +498,6 @@
         </div>
       </section>
 
-      <section class="book" id="rezervacije">
-        <div class="wrap">
-        <div class="book__inner reveal">
-          <p class="eyebrow">Rezervacije</p>
-          <h2>Rezerviraj svoj termin</h2>
-          <p>
-            Želiš novu frizuru, promjenu boje ili samo malo vremena za sebe?
-            Javi mi se i dogovorit ćemo termin koji ti odgovara.
-          </p>
-          <div class="book__actions">
-            <a class="btn btn--gold" href="https://wa.me/385919474951" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            <a class="btn btn--ghost" href="tel:+385919474951">Nazovi 091 947 4951</a>
-            <a class="btn btn--ghost" href="https://www.instagram.com/frizerski__salon_m/" target="_blank" rel="noopener noreferrer">Instagram</a>
-          </div>
-          <p class="book__hint">Termini su dostupni uz prethodnu rezervaciju.</p>
-        </div>
-        </div>
-      </section>
-
       <section class="visit" id="kontakt">
         <div class="wrap visit__grid">
         <div class="visit__info reveal">
@@ -688,8 +557,7 @@
         <div class="footer__main">
           <div class="footer__brand">
             <a class="footer__logo" href="#pocetak" aria-label="Frizerski salon M">
-              <span class="nav__mark" aria-hidden="true">M</span>
-              <span class="footer__logo-name">Frizerski salon M</span>
+              <span class="footer__logo-name">Salon M</span>
             </a>
             <p>
               Frizerski salon na Tratinskoj 38. Šišanje, bojanje, balayage i njega
@@ -730,11 +598,11 @@
             <p class="footer__heading">Navigacija</p>
             <ul>
               <li><a href="#pocetak">Početna</a></li>
-              <li><a href="#o-nama">O nama</a></li>
-              <li><a href="#usluge">Usluge</a></li>
-              <li><a href="#proizvodi">Proizvodi</a></li>
+              <li><a href="#upoznaj-mene">Upoznaj mene</a></li>
               <li><a href="#galerija">Galerija</a></li>
+              <li><a href="#usluge">Usluge</a></li>
               <li><a href="#recenzije">Recenzije</a></li>
+              <li><a href="#pitanja">Pitanja</a></li>
               <li><a href="#kontakt">Kontakt</a></li>
             </ul>
           </nav>
@@ -787,6 +655,6 @@
       <img alt="" />
     </dialog>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js?v=perf6"></script>
   </body>
 </html>
