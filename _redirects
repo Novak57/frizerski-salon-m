@@ -1,0 +1,4 @@
+# Force HTTPS + apex domain
+https://www.frizerski-salon-m.com/* https://frizerski-salon-m.com/:splat 301
+http://frizerski-salon-m.com/* https://frizerski-salon-m.com/:splat 301
+http://www.frizerski-salon-m.com/* https://frizerski-salon-m.com/:splat 301
